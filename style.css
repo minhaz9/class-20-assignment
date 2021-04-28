@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix::before {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+.full-page {
+  margin-top: 10px;
+}
+
+.full-page .test1 {
+  width: 35.25%;
+  height: 50px;
+  float: left;
+}
+
+.full-page .middle {
+  float: left;
+  list-style: none;
+  width: 29.45%;
+}
+
+.full-page .middle li {
+  background: #dddada;
+  display: inline-block;
+  margin: 5px 8px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.full-page .middle li a {
+  padding: 18px 25px;
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-weight: 900;
+  z-index: 1;
+  transition: .9s;
+  position: relative;
+}
+
+.full-page .middle li a::before {
+  background-color: rgba(185, 71, 71, 0.918);
+  content: " ";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) skewX(-60deg);
+  z-index: -1;
+  transition: all 0.8s ease;
+}
+
+.full-page .middle li a:hover::before {
+  width: 250%;
+}
+
+.full-page .middle li a:hover {
+  color: white;
+}
+
+.full-page .test2 {
+  width: 35.25%;
+  height: 50px;
+  float: left;
+}
+
+.full-page .brif {
+  width: 85%;
+  text-align: center;
+  margin: 5% auto;
+  padding: 5px 60px 45px 60px;
+  background: #f5eeee;
+}
+
+.full-page .brif h2 {
+  margin: 2% 0% 1.5% 0%;
+  color: #a52a2a;
+}
+
+.full-page .banner {
+  margin-top: -1%;
+}
+
+.full-page .banner .banner2 {
+  height: 33%;
+}
+
+.full-page .banner .banner2 .mr {
+  background: #d3d1d1;
+  width: 64%;
+  float: right;
+}
+
+.full-page .banner .banner2 .mr h2 {
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+  margin-left: 22%;
+}
+
+.full-page .banner img {
+  width: 36%;
+  height: 315px;
+  float: left;
+}
+
+.full-page .banner .banner-child {
+  width: 64%;
+  float: right;
+}
+
+.full-page .banner .banner-child .banner-child2 {
+  margin-left: 22%;
+  width: 77%;
+}
+
+.full-page .banner .banner-child .banner-child2 h4 {
+  margin: 1% 0;
+}
+
+.full-page .banner .banner-child .banner-child2 h5 {
+  margin: 1% 0;
+}
+
+.full-page .banner .banner-child .banner-child2 ul {
+  font-size: 14px;
+}
+
+.full-page .service .div1 {
+  float: left;
+  width: 46%;
+  height: 43px;
+}
+
+.full-page .service .div2 {
+  float: left;
+  width: 7%;
+  height: 14px;
+}
+
+.full-page .service .div2 button {
+  border-radius: 0;
+}
+
+.full-page .service .div2 button h4 {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background: #dddddd;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.full-page .service .div3 {
+  float: left;
+  width: 46%;
+}
+
+.full-page .service-item .item1 {
+  background: #dddddd;
+  width: 30%;
+  margin: 2%;
+  text-align: center;
+  float: left;
+}
+
+.full-page .service-item .item1 h3, .full-page .service-item .item1 p {
+  width: 80%;
+  margin: auto;
+}
+
+.full-page .service-item .item1 h3 {
+  margin-top: 12%;
+}
+
+.full-page .service-item .item1 p {
+  margin-bottom: 12%;
+}
+
+.full-page .service-item .item2 {
+  background: #dddddd;
+  width: 30%;
+  margin: 1.5%;
+  text-align: center;
+  float: left;
+}
+
+.full-page .service-item .item2 h3, .full-page .service-item .item2 p {
+  width: 80%;
+  margin: auto;
+}
+
+.full-page .service-item .item2 h3 {
+  margin-top: 12%;
+}
+
+.full-page .service-item .item2 p {
+  margin-bottom: 12%;
+}
+
+.full-page .service-item .item3 {
+  background: #dddddd;
+  width: 30%;
+  margin: 1.5%;
+  text-align: center;
+  float: left;
+}
+
+.full-page .service-item .item3 h3, .full-page .service-item .item3 p {
+  width: 80%;
+  margin: auto;
+}
+
+.full-page .service-item .item3 h3 {
+  margin-top: 12%;
+}
+
+.full-page .service-item .item3 p {
+  margin-bottom: 12%;
+}
+
+.full-page .footer {
+  background: #ddd;
+  border-top: 2px solid black;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+
+.full-page .footer h3 {
+  margin-top: 1%;
+}
+
+.full-page .footer p {
+  margin-bottom: 1%;
+}
+/*# sourceMappingURL=style.css.map */
